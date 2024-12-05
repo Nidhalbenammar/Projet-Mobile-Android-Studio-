@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ProfileImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/profile"
+        android:contentDescription="Profile Image"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/editTextLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/editTextInstitution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/editTextpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/editTextCpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/buttonUpdateProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modifier Profile" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numéro de téléphone"
+        android:inputType="phone" />
+
+
+    <Button
+        android:id="@+id/buttonCallPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Appeler" />
+
+
+    <EditText
+        android:id="@+id/editTextSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter SMS message"
+        android:inputType="textMultiLine"/>
+
+
+    <Button
+        android:id="@+id/buttonSendSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS" />
+</LinearLayout>

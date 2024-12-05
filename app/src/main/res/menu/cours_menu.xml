@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/add"
+        android:title="Ajouter"
+        app:showAsAction="always" />
+        <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/search"
+            android:title="Rechercher"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/action_list_all"
+            android:icon="@drawable/list"
+            android:title="Lister Tous"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_clear_list"
+            android:icon="@drawable/clear"
+            android:title="Vider Liste"
+            app:showAsAction="never" />
+    </menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/nav_home"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/tt"
+            android:title="Gérer les enseignants" />
+        <item
+            android:id="@+id/nav_cours"
+            android:icon="@drawable/baseline_book_24"
+            android:title="Gérer les cours" />
+        <item
+            android:id="@+id/nav_coursE"
+            android:icon="@drawable/baseline_book_24"
+            android:title="Liste des cours" />
+        <item
+            android:id="@+id/nav_tache"
+            android:icon="@drawable/tk"
+            android:title="Tâches" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/pr"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_Users"
+            android:icon="@drawable/users"
+            android:title="Gérer les utilisateurs" />
+        <item
+            android:id="@+id/nav_TeachersEtud"
+            android:icon="@drawable/tt"
+            android:title="Liste des enseignants" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_exit"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

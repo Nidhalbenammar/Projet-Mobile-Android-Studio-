@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_textN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom" />
+
+    <EditText
+        android:id="@+id/nbrh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre d'heures" />
+
+    <!-- RadioGroup for selecting type -->
+    <RadioGroup
+        android:id="@+id/radio_group_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_cours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cours"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio_atelier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atelier" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/teacher_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

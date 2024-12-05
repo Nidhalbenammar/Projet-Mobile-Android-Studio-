@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP7</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="liste_enseignants">Liste enseignants</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccueilFragment"
+    android:padding="24dp">
+
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue à votre application"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/image_task"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+
+    <ImageView
+        android:id="@+id/image_task"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/app"
+        android:contentDescription="Taches"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:elevation="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWelcome"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dans cette application, vous pouvez voir vos enseignants, vos cours et organiser vos tâches."
+        android:textSize="16sp"
+        android:textColor="@color/gray"
+        android:fontFamily="sans-serif-light"
+        android:lineSpacingExtra="8dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/image_task"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
